@@ -1,0 +1,28 @@
+
+## MiniReto 3: Recorridos Guiados
+
+### 1. Prueba de Escritorio
+**Caso evaluado:** Grupo de 4 personas en "Sabores de Barrio" ($60.000 por persona).
+
+| Inst. | Línea de código / Acción | nombreRecorrido | precioPersona | cantidadPersonas | valorTotal | anticipo | saldoPendiente |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **1** | Inicio del algoritmo | Sin definir | Sin definir | Sin definir | Sin definir | Sin definir | Sin definir |
+| **2** | Leer nombreRecorrido | "Sabores de Barrio" | Sin definir | Sin definir | Sin definir | Sin definir | Sin definir |
+| **3** | Leer precioPersona | "Sabores de Barrio" | 60000 | Sin definir | Sin definir | Sin definir | Sin definir |
+| **4** | Leer cantidadPersonas | "Sabores de Barrio" | 60000 | 4 | Sin definir | Sin definir | Sin definir |
+| **5** | valorTotal <- precioPersona * cantidadPersonas | "Sabores de Barrio" | 60000 | 4 | **240000** | Sin definir | Sin definir |
+| **6** | anticipo <- redon(valorTotal * 0.30) | "Sabores de Barrio" | 60000 | 4 | 240000 | **720000** | Sin definir |
+| **7** | saldoPendiente <- valorTotal - anticipo | "Sabores de Barrio" | 60000 | 4 | 240000 | 720000 | **168000** |
+| **8** | Escribir Resultados | "Sabores de Barrio" | 60000 | 4 | 240000 | 720000 | 168000 |
+
+*Resultados finales de la ejecución:*
+- **Valor Total:** $240.000
+- **Anticipo (30%):** $72.000
+- **Saldo:** $168.000
+*(Los datos calculados a mano coinciden con exactitud matemática con la salida del programa).*
+
+### 2. Identificación de Símbolos en el Diagrama de Flujo
+Tras exportar el diagrama de PSeInt, se reconocen los siguientes bloques bajo el estándar ISO:
+- **Óvalo / Rectángulo Redondeado:** Representa el **Inicio** y el **Fin** del algoritmo.
+- **Paralelogramo con Flecha:** Representa las operaciones de **Entrada** (`Leer`) y **Salida** (`Escribir`) de datos hacia el usuario.
+- **Rectángulo Simple:** Representa el bloque de **Proceso**, donde ocurren las asignaciones matemáticas en memoria (`<-`).
