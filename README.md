@@ -16,6 +16,3 @@ Este repositorio contiene los algoritmos y la documentación base desarrollados 
 3. Vaya a `Archivo > Abrir` y seleccione el componente deseado.
 4. Asegúrese de tener configurado el perfil de lenguaje **Estricto** para validar la correcta definición inicial de variables.
 
----
-**Desarrollado por:** Johan Rivera  
-**Ubicación:** Medellín, Octubre 2026
