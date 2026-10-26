@@ -35,17 +35,13 @@ Algoritmo CuentaGrupo
     valorPersonaRedondeado <- trunc(valorPersonaExacto / 100 + 0.99) * 100;
     
     // 5. Salida (Resumen de Taquilla)
-    Escribir "=============================================";
     Escribir "         RESUMEN DE CUENTA - RUEDA LIBRE     ";
-    Escribir "=============================================";
     Escribir "Costo Total Alquiler Bicicletas : $", costoAlquiler;
     Escribir "Costo Total Recorrido Guiado    : $", costoRecorrido;
     Escribir "---------------------------------------------";
     Escribir "Subtotal Neto                   : $", subtotal;
     Escribir "Aporte Voluntario Mantenimiento : $", aporteVoluntario;
     Escribir "TOTAL GENERAL A PAGAR           : $", totalGeneral;
-    Escribir "=============================================";
     Escribir "Valor exacto por persona        : $", valorPersonaExacto;
     Escribir "VALOR COBRADO POR PERSONA       : $", valorPersonaRedondeado, " (Redondeado a la centena)";
-    Escribir "=============================================";
 FinAlgoritmo
